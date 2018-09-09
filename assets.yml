@@ -1,0 +1,10 @@
+pkg: static
+
+# destination
+dest: "./static/"
+
+custom:
+  - files:
+    - "./public/"
+    base: "./public"
+    prefix: ""
